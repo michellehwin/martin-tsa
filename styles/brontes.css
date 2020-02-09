@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+html, body{
+	height:100%;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	color: #222;
+}
+
+.navbar{
+	background-color: #274ba5;
+	padding: .6rem;
+}
+
+.navbar-nav li{
+	padding-right: 1.3rem;
+}
+
+.nav-link{
+	color:#c0c1c6;
+	font-size: 1.2em;
+}
+
+.nav-link:hover, .active{
+	color:#f7f9ff;
+}
+
+
+.navbar-toggler-icon{
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(247, 249, 255, 0.75)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
