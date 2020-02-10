@@ -92,6 +92,7 @@
 }
 .navbar .navbar-toggle .navbar-toggler-icon {
   color: #ecf0f1;
+  z-index:1;
 }
 .navbar .navbar-collapse,
 .navbar .navbar-form {
