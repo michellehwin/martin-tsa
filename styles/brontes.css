@@ -6,6 +6,49 @@ html, body{
 	color: #222;
 }
 
+#table-results{
+	margin-top: 2.3rem;
+}
+
+#sticky-footer {
+	flex-shrink: none;
+	background-color:#e9ecef;
+}
+
+#div-results{
+	margin-top: 5rem;
+}
+
+/*prolly shouldn't style all rows the same, but I'm not sure*/
+
+.row{
+	margin-left:.5rem;
+	margin-right:.5rem;
+	margin-bottom: 2.3rem;
+	margin-top: 2.3rem;
+}
+
+.p-col{
+	margin-top:1.2rem;
+}
+
+/*Fine now, but need to give these buttons their own classes/ids*/
+
+.btn-outline-primary{
+	margin-top:2rem;
+}
+
+.btn-primary{
+	margin-top:1.6rem;
+
+}
+
+/*prolly shouldn't style all leads the same either*/
+
+.lead{
+	padding-top:3rem;
+}
+
 .navbar{
 	background-color: #274ba5;
 	padding: .6rem;
@@ -23,7 +66,6 @@ html, body{
 .nav-link:hover, .active{
 	color:#f7f9ff;
 }
-
 
 .navbar-toggler-icon{
 	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(247, 249, 255, 0.75)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
