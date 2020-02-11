@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<!-- need to make an icon-->
-		<title>Brontes Automtive - Home</title>
+		<title>Brontes Automotive - Home</title>
 		<!-- Bootstrap -->
   		<link rel="stylesheet" href="styles/bootstrap.css">
   		 <link rel="stylesheet" href="styles/bootstrap-theme.css">
@@ -36,5 +36,164 @@
 				</div>
 			</div>
 		</nav>
+		<div class="jumbotron jumbotron-fluid text-center" id = "jumbotron-design">
+  			<div class="container">
+    			<h1 class="display-4">Electric is the Future.</h1>
+    			<p class="lead">Our innovative designs outperform all others. It's proven.</p>
+    			<!-- I want to fix the spacing for this button -->
+    			<a class = "btn btn-primary" href = "#">Learn More</a>
+			</div>
+		</div>
+		<!-- everything below jumbotron... may not be a great method but it works -->
+		<div class = "container">
+			<!-- Who we are & our vehicles -->
+			<div class = "row">
+				<div class = "col-sm">
+					<h1 class ="display-5">Who We Are</h1>
+					<p class = "p-col">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a class = "btn btn-outline-primary float-right" href = "#">Learn More</a>
+				</div>
+				<div class = "col-sm">
+					<h1 class ="display-5">Our Vehicles</h1>
+					<p class = "p-col">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a class = "btn btn-outline-primary float-right" href = "#">Learn More</a>
+				</div>
+			</div>
+			<div class = "row">
+				
+			</div>
+			<hr>
+			<!-- Find a dealer -->
+			<div class = "row text-center">
+				<!-- For some reason this sole column must exist or else it won't center align. Don't delete it -->
+				<div class = "col-sm" id="div-dealer">
+					<h1 class ="display-5">Find a Dealer</h1>
+					<p class = "p-col">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<form>
+						<div class="container">
+							<div class = "row">
+								<div class="form-group col-sm-3">
+										<label for="state-dropdown">State</label>
+										<select class="form-control" id="state-dropdown">
+													<option>AL</option>
+													<option>AK</option>
+													<option>AZ</option>
+													<option>AR</option>
+														<option>CA</option>
+														<option>CO</option>
+														<option>CT</option>
+														<option>DE</option>
+														<option>DC</option>
+														<option>FL</option>
+														<option>GA</option>
+														<option>HI</option>
+														<option>ID</option>
+														<option>IL</option>
+														<option>IN</option>
+														<option>IA</option>
+														<option>KS</option>
+														<option>KY</option>
+														<option>LA</option>
+														<option>ME</option>
+														<option>MD</option>
+														<option>MA</option>
+														<option>MI</option>
+														<option>MN</option>
+														<option>MS</option>
+														<option>MO</option>
+														<option>MT</option>
+														<option>NE</option>
+														<option>NV</option>
+														<option>NH</option>
+														<option>NJ</option>
+														<option>NM</option>
+														<option>NY</option>
+														<option>NC</option>
+														<option>ND</option>
+														<option>OH</option>
+														<option>OK</option>
+														<option>OR</option>
+														<option>PA</option>
+														<option>RI</option>
+														<option>SC</option>
+														<option>SD</option>
+														<option>TN</option>
+														<option>TX</option>
+														<option>UT</option>
+														<option>VT</option>
+														<option>VA</option>
+														<option>WA</option>
+														<option>WV</option>
+														<option>WI</option>
+														<option>WY</option>
+										</select>
+								</div>
+								<div class="form-group col-sm">
+									<label for="city-area">City</label>
+									<textarea class = "form-control" id = "city-area" rows="1"></textarea>
+								</div>
+								<div class="form-group col-sm">
+									<label for="zip-area">ZIP Code</label>
+									<textarea class = "form-control" id = "zip-area" rows="1"></textarea>
+								</div>
+							</div>
+     						<a type="submit" class="btn btn-outline-success" data-toggle="collapse" data-target="#div-results" href = "#">Find a Location</a>
+						</div>
+					</form>
+					<div class = "container collapse" id = "div-results">
+						<h5>Here are some nearby dealerships that sell out products:</h5>
+						<table class = "table" id = "table-results">
+							<thead>
+								<tr>
+								<th scope="col">#</th>
+									<th scope="col">Dealership</th>
+									<th scope="col">Address</th>
+									<th scope="col">Proximity</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">1</th>
+									<td id = "dealership-1"></td>
+									<td id = "address-1"></td>
+									<td id = "proximity-1"></td>
+								</tr>
+								<tr>
+									<th scope="row">2</th>
+									<td id = "dealership-2"></td>
+									<td id = "address-2"></td>
+									<td id = "proximity-2"></td>
+								</tr>
+								<tr>
+									<th scope="row">3</th>
+									<td id = "dealership-3"></td>
+									<td id = "address-3"></td>
+									<td id = "proximity-3"></td>
+								</tr>
+								<tr>
+									<th scope="row">4</th>
+									<td id = "dealership-4"></td>
+									<td id = "address-4"></td>
+									<td id = "proximity-4"></td>
+								</tr>
+								<tr>
+									<th scope="row">5</th>
+									<td id = "dealership-5"></td>
+									<td id = "address-5"></td>
+									<td id = "proximity-5"></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer id="sticky-footer" class="py-4 text-50">
+			<div class="container text-center">
+			      <small>&copy; 2020 Brontes Automotive</small>
+			</div>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 	</body>
 </html>
