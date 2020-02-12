@@ -59,9 +59,7 @@
 					<a class = "btn btn-outline-primary float-right" href = "#">Learn More</a>
 				</div>
 			</div>
-			<div class = "row">
-				
-			</div>
+			<!-- News/carosel? -->
 			<hr>
 			<!-- Find a dealer -->
 			<div class = "row text-center">
@@ -137,15 +135,16 @@
 									<textarea class = "form-control" id = "zip-area" rows="1"></textarea>
 								</div>
 							</div>
-     						<a type="submit" class="btn btn-outline-success" data-toggle="collapse" data-target="#div-results" href = "#">Find a Location</a>
+     						<a type="submit" class="btn btn-outline-success" id="button-results" href="javascript:void(0);">Find a Location</a>
 						</div>
 					</form>
+					<!-- Maybe add a loading animation for this -->
 					<div class = "container collapse" id = "div-results">
 						<h5>Here are some nearby dealerships that sell out products:</h5>
 						<table class = "table" id = "table-results">
 							<thead>
 								<tr>
-								<th scope="col">#</th>
+									<th scope="col">#</th>
 									<th scope="col">Dealership</th>
 									<th scope="col">Address</th>
 									<th scope="col">Proximity</th>
@@ -195,5 +194,7 @@
 		</footer>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.js"></script>
+		<script src = "../js/brontes.js"></script>
 	</body>
 </html>
