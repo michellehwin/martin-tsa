@@ -1,3 +1,60 @@
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 2.7px;
+  color: #B22222;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold !important;
+  font-size: 30px;
+  letter-spacing: 2.7px;
+  color: #B22222;
+}
+
+p{
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  line-height: 21.3px;
+  color: #666666;
+}
+
+.feature-img{
+  height:350px;
+  width: 100%;
+  object-fit:cover;
+}
+
+.mission{
+  background-color: #f1f1f1;
+}
+
+.btn-main{
+  font-family: 'Poppins', serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 21.3px;
+  letter-spacing: 1px;
+  color: #fff;
+  border-radius: 0;
+  padding: 15px;
+  margin:5px;
+  background-color: #B22222;
+}
+
+.btn-nav{
+  font-family: 'Poppins', serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 21.3px;
+  letter-spacing: 1px;
+  color: #fff;
+  border-radius: 0 !important;
+  outline-style: solid;
+  outline-color: #81a0e2;
+}
 
 .marketing .col-lg-5 {
   margin-bottom: 1.5rem;
