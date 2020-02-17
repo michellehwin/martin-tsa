@@ -1,12 +1,12 @@
-h1{
+h1 {
   font-family: 'Poppins', sans-serif;
-  font-weight: bold;
+  font-weight: bold !important;
   font-size: 40px;
   letter-spacing: 2.7px;
   color: #B22222;
 }
 
-h2{
+h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: bold !important;
   font-size: 30px;
@@ -14,24 +14,31 @@ h2{
   color: #B22222;
 }
 
-p{
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  letter-spacing: 2.7px;
+  color: #B22222;
+}
+
+p {
   font-family: 'Roboto Slab', serif;
   font-size: 14px;
   line-height: 21.3px;
   color: #666666;
 }
 
-.feature-img{
-  height:350px;
+.feature-img {
+  height: 350px;
   width: 100%;
-  object-fit:cover;
+  object-fit: cover;
 }
 
-.mission{
+.mission {
   background-color: #f1f1f1;
 }
 
-.btn-main{
+.btn-main {
   font-family: 'Poppins', serif;
   font-size: 14px;
   font-weight: bold;
@@ -40,11 +47,11 @@ p{
   color: #fff;
   border-radius: 0;
   padding: 15px;
-  margin:5px;
+  margin: 5px;
   background-color: #B22222;
 }
 
-.btn-nav{
+.btn-nav {
   font-family: 'Poppins', serif;
   font-size: 16px;
   font-weight: bold;
