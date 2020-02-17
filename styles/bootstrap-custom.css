@@ -14,11 +14,28 @@ h2 {
   color: #B22222;
 }
 
-.navbar-brand {
+h3 {
   font-family: 'Poppins', sans-serif;
-  font-size: 30px;
+  font-weight: bold !important;
+  font-size: 25px;
   letter-spacing: 2.7px;
   color: #B22222;
+}
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 30px;
+  font-weight: 600 !important;
+  letter-spacing: 2.7px;
+  color: #B22222;
+}
+
+.why-stem{
+  background-color: #f1f1f1;
+}
+
+.why-stem p{
+  padding-bottom: 15px;
 }
 
 p {
