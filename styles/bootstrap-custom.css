@@ -1,3 +1,130 @@
+.navbar-brand{
+  display: none;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 15px;
+  font-weight: 600 !important;
+  letter-spacing: 2.7px;
+  color: #ffffff;
+}
+
+.navbar-brand-small{
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 15px;
+  font-weight: 600 !important;
+  letter-spacing: 2.7px;
+  color: #ffffff;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .navbar-brand {
+    display: inline;
+    font-size: 20px !important;
+  }
+  .navbar-brand-small{
+    display: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .navbar-brand {
+    display: inline;
+    font-size: 25px !important;
+  }
+  .navbar-brand-small{
+    display: none;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .navbar-brand {
+    display: inline;
+    font-size: 30px !important;
+  }
+  .navbar-brand-small{
+    display: none;
+  }
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold !important;
+  font-size: 40px;
+  letter-spacing: 2.7px;
+  color: #B22222;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold !important;
+  font-size: 30px;
+  letter-spacing: 2.7px;
+  color: #B22222;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold !important;
+  font-size: 25px;
+  letter-spacing: 2.7px;
+  color: #B22222;
+}
+
+.carousel-caption h3{
+  color:white;
+}
+
+.why-stem {
+  background-color: #f1f1f1;
+}
+
+.why-stem p {
+  padding-bottom: 15px;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  line-height: 21.3px;
+  color: #666666;
+}
+
+.feature-img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.mission {
+  background-color: #f1f1f1;
+}
+
+.btn-main {
+  font-family: 'Poppins', serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 21.3px;
+  letter-spacing: 1px;
+  color: #fff;
+  border-radius: 0;
+  padding: 15px;
+  margin: 5px;
+  background-color: #B22222;
+}
+
+.btn-nav {
+  font-family: 'Poppins', serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 21.3px;
+  letter-spacing: 1px;
+  color: #fff;
+  border-radius: 0 !important;
+  outline-style: solid;
+  outline-color: #81a0e2;
+}
 
 .marketing .col-lg-5 {
   margin-bottom: 1.5rem;
