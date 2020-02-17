@@ -6,6 +6,11 @@ html, body{
 	color: #222;
 }
 
+#jumbotron-design{
+	background-image: url("../images/rainbow-car.png");
+	background-position: 50% 53%;
+}
+
 .attribution{
 	font-size:1.2rem;
 }
