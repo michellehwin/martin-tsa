@@ -12,206 +12,208 @@
   		<link rel="stylesheet" href="../styles/brontes.css">
 	</head>
 	<body>
-		<!-- Navbar -->
-		<nav class = "navbar navbar-expand-md sticky-top">
-			<div class = "container-fluid">
-				<a class = "navbar-brand" href="#"><img id = "img-logo" src="../images/brontes-logo-300.png"></a>
-				<button class = "navbar-toggler" type = "button" data-toggle ="collapse" data-target = "#navbarResponsive">
-					<span class = "navbar-toggler-icon"></span>
-				</button>
-				<div class = "collapse navbar-collapse" id="navbarResponsive">
-					<ul class = "navbar-nav ml-auto">
-						<li class = "nav-item">
-							<a class= "nav-link active" href = "#">Home</a>
-						</li>
-						<li class = "nav-item">
-							<a class= "nav-link" href = "brontes-about.html">About</a>
-						</li>
-						<li class = "nav-item">
-							<a class= "nav-link" href = "brontes-catalog.html">Catalog</a>
-						</li>
-						<li class = "nav-item">
-							<a class= "nav-link" href = "brontes-services.html">Service</a>
-						</li>
-					</ul>
+		<div class="content">
+			<!-- Navbar -->
+			<nav class = "navbar navbar-expand-md sticky-top">
+				<div class = "container-fluid">
+					<a class = "navbar-brand" href="#"><img id = "img-logo" src="../images/brontes-logo-300.png"></a>
+					<button class = "navbar-toggler" type = "button" data-toggle ="collapse" data-target = "#navbarResponsive">
+						<span class = "navbar-toggler-icon"></span>
+					</button>
+					<div class = "collapse navbar-collapse" id="navbarResponsive">
+						<ul class = "navbar-nav ml-auto">
+							<li class = "nav-item">
+								<a class= "nav-link active" href = "#">Home</a>
+							</li>
+							<li class = "nav-item">
+								<a class= "nav-link" href = "brontes-about.html">About</a>
+							</li>
+							<li class = "nav-item">
+								<a class= "nav-link" href = "brontes-catalog.html">Catalog</a>
+							</li>
+							<li class = "nav-item">
+								<a class= "nav-link" href = "brontes-services.html">Service</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="jumbotron jumbotron-fluid text-center" id = "jumbotron-design">
+	  			<div class="container">
+	    			<h1 class="display-4">Electric is the Future.</h1>
+	    			<p class="lead pt-5">Our innovative designs outperform all others. It's proven.</p>
+	    			<!-- I want to fix the spacing for this button -->
+	    			<a class = "btn btn-primary" href = "brontes-about.html#design">Learn More</a>
 				</div>
 			</div>
-		</nav>
-		<div class="jumbotron jumbotron-fluid text-center text-light" id = "jumbotron-design">
-  			<div class="container">
-    			<h1 class="display-4">Electric is the Future.</h1>
-    			<p class="lead pt-5">Our innovative designs outperform all others. It's proven.</p>
-    			<!-- I want to fix the spacing for this button -->
-    			<a class = "btn btn-primary" href = "brontes-about.html#design">Learn More</a>
-			</div>
-		</div>
-		<!-- everything below jumbotron... may not be a great method but it works -->
-		<div class = "container">
-			<!-- Who we are & our vehicles -->
-			<div class = "row med-spaced">
-				<div class = "col-sm-12 col-lg-6">
-					<h1 class ="display-5">Who We Are</h1>
-					<p class = "p-col">Brontes Automotive is built on the foundation of a greener and advanced future. We are engaged in the designing and manufacturing of world-class wholly electric vehicles. Our progressive and eco friendly products drive tomorrow. This is just the beginning. Join us in our movement to a better, faster, and cleaner future.
-					</p>
-					<a class = "btn btn-outline-primary float-right" href = "brontes-about.html">Learn More</a>
+			<!-- everything below jumbotron... may not be a great method but it works -->
+			<div class = "container">
+				<!-- Who we are & our vehicles -->
+				<div class = "row med-spaced">
+					<div class = "col-sm-12 col-lg-6">
+						<h1 class ="display-5">Who We Are</h1>
+						<p class = "p-col">Brontes Automotive is built on the foundation of a greener and advanced future. We are engaged in the designing and manufacturing of world-class wholly electric vehicles. Our progressive and eco friendly products drive tomorrow. This is just the beginning. Join us in our movement to a better, faster, and cleaner future.
+						</p>
+						<a class = "btn btn-outline-primary float-right" href = "brontes-about.html">Learn More</a>
+					</div>
+					<div class = "col-sm-12 col-lg-6">
+						<h1 class ="display-5 mt-5 mt-lg-0">Our Vehicles</h1>
+						<p class = "p-col">Our selection of cars has one catered to each person. Every vehicle we produce sports modern and clean energy engines. We have been creating cars for years. Our expertise in automotives and energy combined produces the most elite vehicles. Our vehicles not only rival their gasoline counterparts, but surpass them. Choose technology that ignites the world of transportation. Choose Brontes.
+						</p>
+						<a class = "btn btn-outline-primary float-right" href = "brontes-catalog.html">Learn More</a>
+					</div>
 				</div>
-				<div class = "col-sm-12 col-lg-6">
-					<h1 class ="display-5 mt-5 mt-lg-0">Our Vehicles</h1>
-					<p class = "p-col">Our selection of cars has one catered to each person. Every vehicle we produce sports modern and clean energy engines. We have been creating cars for years. Our expertise in automotives and energy combined produces the most elite vehicles. Our vehicles not only rival their gasoline counterparts, but surpass them. Choose technology that ignites the world of transportation. Choose Brontes.
-					</p>
-					<a class = "btn btn-outline-primary float-right" href = "brontes-catalog.html">Learn More</a>
-				</div>
-			</div>
 
-			<hr>
+				<hr>
 
-			<!-- Testimonials -->
-			<div class="container text-center my-4">
-				<h1 class="display-5">What people are saying</h1>
-				<div class = "carousel slide text-center" id="testimonialCarousel" data-ride="carousel">
-					<div class="carousel-inner">
-						<div class = "carousel-item active">
-							<!-- Be sure to use square images! Light colors help too -->
-							<img class = "rounded-circle shadow my-5" src = "../images/obamium.png">
-							<p class = "text-muted lead mx-lg-5">
-								Brontes is building the frontier for vehicles. The power, price, and benefits of Brontes are incomparable to any other manufacturer. This is a company that’s going to revolutionize not only transportation, but the world.
-							</p>
-							<footer class="blockquote-footer attribution"><span class = "source-name">JACOB HYLAND</span>, Vice President of the Natural Conservancy</footer>
-						</div>
-						<div class="carousel-item">
-							<img class = "rounded-circle shadow my-5" src = "../images/squiggy.png">
+				<!-- Testimonials -->
+				<div class="container text-center my-4">
+					<h1 class="display-5">What people are saying</h1>
+					<div class = "carousel slide text-center" id="testimonialCarousel" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class = "carousel-item active">
+								<!-- Be sure to use square images! Light colors help too -->
+								<img class = "rounded-circle shadow my-5" src = "../images/obamium.png">
 								<p class = "text-muted lead mx-lg-5">
-									These are the cars that the world has been waiting for. Brontes has absolutely changed the game and dominated the market. Their mindset is years into the future, and it’s everything we need right now.
+									Brontes is building the frontier for vehicles. The power, price, and benefits of Brontes are incomparable to any other manufacturer. This is a company that’s going to revolutionize not only transportation, but the world.
 								</p>
-								<footer class="blockquote-footer attribution"><span class = "source-name">MARISSA RUSSO</span>, Director of the International Energy Agency</footer>
+								<footer class="blockquote-footer attribution"><span class = "source-name">JACOB HYLAND</span>, Vice President of the Natural Conservancy</footer>
+							</div>
+							<div class="carousel-item">
+								<img class = "rounded-circle shadow my-5" src = "../images/squiggy.png">
+									<p class = "text-muted lead mx-lg-5">
+										These are the cars that the world has been waiting for. Brontes has absolutely changed the game and dominated the market. Their mindset is years into the future, and it’s everything we need right now.
+									</p>
+									<footer class="blockquote-footer attribution"><span class = "source-name">MARISSA RUSSO</span>, Director of the International Energy Agency</footer>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<hr>
+				<hr>
 
-			<!-- Find a dealer -->
-			<div class = "container my-4 text-center">
-				<h1 class ="display-5">Find a Dealer</h1>
-				<p class = "p-col">Start your venture into tomorrow. Find a Brontes Automotive dealer near you.
-				</p>
-				<p class = "text-muted">Only available in the U.S.</p>
-				<form>
-					<div class="container">
-						<div class = "row med-spaced">
-							<div class="form-group col-sm-3">
-									<label for="state-dropdown">State</label>
-									<select class="form-control" id="state-dropdown">
-												<option>AL</option>
-												<option>AK</option>
-												<option>AZ</option>
-												<option>AR</option>
-												<option>CA</option>
-												<option>CO</option>
-												<option>CT</option>
-												<option>DE</option>
-												<option>DC</option>
-												<option>FL</option>
-												<option>GA</option>
-													<option>HI</option>
-													<option>ID</option>
-														<option>IL</option>
-														<option>IN</option>
-														<option>IA</option>
-														<option>KS</option>
-														<option>KY</option>
-														<option>LA</option>
-														<option>ME</option>
-														<option>MD</option>
-														<option>MA</option>
-														<option>MI</option>
-														<option>MN</option>
-														<option>MS</option>
-														<option>MO</option>
-														<option>MT</option>
-														<option>NE</option>
-														<option>NV</option>
-														<option>NH</option>
-														<option>NJ</option>
-														<option>NM</option>
-														<option>NY</option>
-														<option>NC</option>
-														<option>ND</option>
-														<option>OH</option>
-														<option>OK</option>
-														<option>OR</option>
-														<option>PA</option>
-														<option>RI</option>
-														<option>SC</option>
-														<option>SD</option>
-														<option>TN</option>
-														<option>TX</option>
-														<option>UT</option>
-														<option>VT</option>
-														<option>VA</option>
-														<option>WA</option>
-														<option>WV</option>
-														<option>WI</option>
-														<option>WY</option>
-									</select>
+				<!-- Find a dealer -->
+				<div class = "container my-4 text-center">
+					<h1 class ="display-5">Find a Dealer</h1>
+					<p class = "p-col">Start your venture into tomorrow. Find a Brontes Automotive dealer near you.
+					</p>
+					<p class = "text-muted">Only available in the U.S.</p>
+					<form>
+						<div class="container">
+							<div class = "row med-spaced">
+								<div class="form-group col-sm-3">
+										<label for="state-dropdown">State</label>
+										<select class="form-control" id="state-dropdown">
+													<option>AL</option>
+													<option>AK</option>
+													<option>AZ</option>
+													<option>AR</option>
+													<option>CA</option>
+													<option>CO</option>
+													<option>CT</option>
+													<option>DE</option>
+													<option>DC</option>
+													<option>FL</option>
+													<option>GA</option>
+														<option>HI</option>
+														<option>ID</option>
+															<option>IL</option>
+															<option>IN</option>
+															<option>IA</option>
+															<option>KS</option>
+															<option>KY</option>
+															<option>LA</option>
+															<option>ME</option>
+															<option>MD</option>
+															<option>MA</option>
+															<option>MI</option>
+															<option>MN</option>
+															<option>MS</option>
+															<option>MO</option>
+															<option>MT</option>
+															<option>NE</option>
+															<option>NV</option>
+															<option>NH</option>
+															<option>NJ</option>
+															<option>NM</option>
+															<option>NY</option>
+															<option>NC</option>
+															<option>ND</option>
+															<option>OH</option>
+															<option>OK</option>
+															<option>OR</option>
+															<option>PA</option>
+															<option>RI</option>
+															<option>SC</option>
+															<option>SD</option>
+															<option>TN</option>
+															<option>TX</option>
+															<option>UT</option>
+															<option>VT</option>
+															<option>VA</option>
+															<option>WA</option>
+															<option>WV</option>
+															<option>WI</option>
+															<option>WY</option>
+										</select>
+								</div>
+								<div class="form-group col-sm">
+									<label for="city-area">City</label>
+									<textarea class = "form-control" id = "city-area" rows="1"></textarea>
+								</div>
+								<div class="form-group col-sm">
+									<label for="zip-area">ZIP Code</label>
+									<textarea class = "form-control" id = "zip-area" rows="1"></textarea>
+								</div>
 							</div>
-							<div class="form-group col-sm">
-								<label for="city-area">City</label>
-								<textarea class = "form-control" id = "city-area" rows="1"></textarea>
-							</div>
-							<div class="form-group col-sm">
-								<label for="zip-area">ZIP Code</label>
-								<textarea class = "form-control" id = "zip-area" rows="1"></textarea>
-							</div>
+	     					<a type="submit" class="btn btn-outline-success" id="button-results" href="javascript:void(0);">Find a Location</a>
 						</div>
-     					<a type="submit" class="btn btn-outline-success" id="button-results" href="javascript:void(0);">Find a Location</a>
+					</form>
+					<!-- Maybe add a loading animation for this -->
+					<div class = "container collapse" id = "div-results">
+						<h5>Here are some nearby dealerships that sell out products:</h5>
+						<table class = "table" id = "table-results">
+							<thead>
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Dealership</th>
+									<th scope="col">Address</th>
+									<th scope="col">Proximity</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">1</th>
+									<td id = "dealership-1"></td>
+									<td id = "address-1"></td>
+									<td id = "proximity-1"></td>
+								</tr>
+								<tr>
+									<th scope="row">2</th>
+									<td id = "dealership-2"></td>
+									<td id = "address-2"></td>
+									<td id = "proximity-2"></td>
+								</tr>
+								<tr>
+									<th scope="row">3</th>
+									<td id = "dealership-3"></td>
+									<td id = "address-3"></td>
+									<td id = "proximity-3"></td>
+								</tr>
+								<tr>
+									<th scope="row">4</th>
+									<td id = "dealership-4"></td>
+									<td id = "address-4"></td>
+									<td id = "proximity-4"></td>
+								</tr>
+								<tr>
+									<th scope="row">5</th>
+									<td id = "dealership-5"></td>
+									<td id = "address-5"></td>
+									<td id = "proximity-5"></td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
-				</form>
-				<!-- Maybe add a loading animation for this -->
-				<div class = "container collapse" id = "div-results">
-					<h5>Here are some nearby dealerships that sell out products:</h5>
-					<table class = "table" id = "table-results">
-						<thead>
-							<tr>
-								<th scope="col">#</th>
-								<th scope="col">Dealership</th>
-								<th scope="col">Address</th>
-								<th scope="col">Proximity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<th scope="row">1</th>
-								<td id = "dealership-1"></td>
-								<td id = "address-1"></td>
-								<td id = "proximity-1"></td>
-							</tr>
-							<tr>
-								<th scope="row">2</th>
-								<td id = "dealership-2"></td>
-								<td id = "address-2"></td>
-								<td id = "proximity-2"></td>
-							</tr>
-							<tr>
-								<th scope="row">3</th>
-								<td id = "dealership-3"></td>
-								<td id = "address-3"></td>
-								<td id = "proximity-3"></td>
-							</tr>
-							<tr>
-								<th scope="row">4</th>
-								<td id = "dealership-4"></td>
-								<td id = "address-4"></td>
-								<td id = "proximity-4"></td>
-							</tr>
-							<tr>
-								<th scope="row">5</th>
-								<td id = "dealership-5"></td>
-								<td id = "address-5"></td>
-								<td id = "proximity-5"></td>
-							</tr>
-						</tbody>
-					</table>
 				</div>
 			</div>
 		</div>

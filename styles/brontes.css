@@ -4,19 +4,40 @@ html, body{
 	width: 100%;
 	font-family: 'Lato', sans-serif;
 	color: #222;
+	margin:0;
+}
+
+.content{
+	min-height:100%;
+	margin-bottom: -5rem;
+}
+
+#sticky-footer, .content::after{
+	height:5rem;
+
+}
+
+#sticky-footer {
+	background-color:#e9ecef;
+	line-height: 2.5rem;
+}
+
+.content::after{
+	content: "";
+	display: block;
 }
 
 #jumbotron-design{
-	background-image: url("../images/rainbow-car.png");
-	background-position: 50% 53%;
+	background-image: url("../images/cad-4.png");
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+	background-color: white;
+	min-height: 30rem;
 }
 
 #jumbotron-explode{
-	background-image: url("../images/cad-1.png");
-	background-position: 50% -200%;
-	background-repeat: no-repeat;
-	background-color:white;
-	min-height: 25rem;
+	min-height: 12rem;
+	background-color: white;
 }
 
 
@@ -36,11 +57,6 @@ html, body{
 
 #table-results{
 	margin-top: 2.3rem;
-}
-
-#sticky-footer {
-	flex-shrink: none;
-	background-color:#e9ecef;
 }
 
 #div-results{
