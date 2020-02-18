@@ -1,4 +1,4 @@
-.navbar-brand{
+.navbar-brand {
   display: none;
   font-family: 'Poppins', sans-serif !important;
   font-size: 15px;
@@ -7,7 +7,7 @@
   color: #ffffff;
 }
 
-.navbar-brand-small{
+.navbar-brand-small {
   font-family: 'Poppins', sans-serif !important;
   font-size: 15px;
   font-weight: 600 !important;
@@ -21,7 +21,8 @@
     display: inline;
     font-size: 20px !important;
   }
-  .navbar-brand-small{
+
+  .navbar-brand-small {
     display: none;
   }
 }
@@ -32,7 +33,8 @@
     display: inline;
     font-size: 25px !important;
   }
-  .navbar-brand-small{
+
+  .navbar-brand-small {
     display: none;
   }
 }
@@ -43,7 +45,8 @@
     display: inline;
     font-size: 30px !important;
   }
-  .navbar-brand-small{
+
+  .navbar-brand-small {
     display: none;
   }
 }
@@ -72,8 +75,8 @@ h3 {
   color: #B22222;
 }
 
-.carousel-caption h3{
-  color:white;
+.carousel-caption h3 {
+  color: white;
 }
 
 .why-stem {
@@ -337,4 +340,29 @@ p {
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
   color: #d3d3d4;
   background-color: #434143;
+}
+
+.jt-about {
+  background-image: url('../images/hosa.JPG');
+  background-size: cover;
+  min-height: 400px;
+}
+
+.table {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 14px;
+  line-height: 21.3px;
+  color: #666666;
+}
+
+thead {
+  font-size: 16px;
+}
+
+.header-a h1{
+  font-size: 55px;
+}
+
+.timeline{
+  background-color: white;
 }
