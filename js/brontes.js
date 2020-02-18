@@ -6,7 +6,7 @@ function showResults(){
 
 	strAdjs = ["Gloomy", "Pleasant", "Red", "Grassy", "Wooded", "Sandy", "Dark"];
 	strNouns = ["Pines", "Ridge", "Hills", "Run", "Peak", "Forest", "Plain"];
-	strTypes = ["Dr.", "St.", "Blvd.", "Ave.", "Ct.","Pkwy.","Rd."];
+	strTypes = ["Dr", "St", "Blvd", "Ave", "Ct","Pkwy","Rd"];
 	dealerAdjs = ["Jones'", "Smith's", "Brown's", "Simmons'", "Johnson's"];
 	dealer1Mids = ["Used and New", "Used", "Famous", "Quality", "Five-Star"];
 	dealer2Mids = ["Car", "Motor Vehicle"]
@@ -30,11 +30,18 @@ function showResults(){
 	Math.seedrandom(seed);
 
 	for (var i = 0; i < 5; i++){
+		num=(Math.floor(100000*Math.random()))%2500;
+		if(num<100){
+			num*=100;
+		}else if(num<1000){
+			num*=10;
+		}
+
+		addyMore = " "+capitalizeFirstLetter(city.toLowerCase())+", "+state+" "+zip;
+
 		dealerships.push(dealerAdjs.splice((Math.floor(100000*Math.random()))%dealerAdjs.length,1)+" "+dealer1Mids.splice((Math.floor(100000*Math.random()))%dealer1Mids.length,1)+" "+dealer2Mids[(Math.floor(100000*Math.random()))%dealer2Mids.length]+" "+dealerNouns[(Math.floor(100000*Math.random()))%dealerNouns.length]);
-		addresses.push(strAdjs.splice((Math.floor(100000*Math.random()))%strAdjs.length,1)+" "+strNouns.splice((Math.floor(100000*Math.random()))%strNouns.length,1)+" "+strTypes[(Math.floor(100000*Math.random()))%strTypes.length]);
+		addresses.push(""+num+" "+strAdjs.splice((Math.floor(100000*Math.random()))%strAdjs.length,1)+" "+strNouns.splice((Math.floor(100000*Math.random()))%strNouns.length,1)+" "+strTypes[(Math.floor(100000*Math.random()))%strTypes.length]+".");
 		proximities.push(((Math.floor(100000*Math.random()))-7)%300);
-
-
 	}
 
 	proximities.sort(function(a, b){return a-b});
@@ -48,6 +55,10 @@ function showResults(){
 		$("#div-results").collapse('show');
 		resultsShown=1;
 	}
+}
+
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
 $("#button-results").click(function () {
