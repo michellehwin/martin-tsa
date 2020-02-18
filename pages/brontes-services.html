@@ -11,31 +11,94 @@
   		<link rel="stylesheet" href="../styles/brontes.css">
 	</head>
 	<body>
-		<!-- Navbar -->
-		<nav class = "navbar navbar-expand-md sticky-top">
-			<div class = "container-fluid">
-				<a class = "navbar-brand" href="brontes-home.html"><img id = "img-logo" src="../images/brontes-logo-300.png"></a>
-				<button class = "navbar-toggler" type = "button" data-toggle ="collapse" data-target = "#navbarResponsive">
-					<span class = "navbar-toggler-icon"></span>
-				</button>
-				<div class = "collapse navbar-collapse" id="navbarResponsive">
-					<ul class = "navbar-nav ml-auto">
-						<li class = "nav-item">
-							<a class= "nav-link" href = "brontes-home.html">Home</a>
-						</li>
-						<li class = "nav-item">
-							<a class= "nav-link" href = "brontes-about.html">About</a>
-						</li>
-						<li class = "nav-item">
-							<a class= "nav-link" href = "brontes-catalog.html">Catalog</a>
-						</li>
-						<li class = "nav-item">
-							<a class= "nav-link active" href = "#">Service</a>
-						</li>
-					</ul>
+		<div class="content">
+			<!-- Navbar -->
+			<nav class = "navbar navbar-expand-md sticky-top">
+				<div class = "container-fluid">
+					<a class = "navbar-brand" href="brontes-home.html"><img id = "img-logo" src="../images/brontes-logo-300.png"></a>
+					<button class = "navbar-toggler" type = "button" data-toggle ="collapse" data-target = "#navbarResponsive">
+						<span class = "navbar-toggler-icon"></span>
+					</button>
+					<div class = "collapse navbar-collapse" id="navbarResponsive">
+						<ul class = "navbar-nav ml-auto">
+							<li class = "nav-item">
+								<a class= "nav-link" href = "brontes-home.html">Home</a>
+							</li>
+							<li class = "nav-item">
+								<a class= "nav-link" href = "brontes-about.html">About</a>
+							</li>
+							<li class = "nav-item">
+								<a class= "nav-link" href = "brontes-catalog.html">Catalog</a>
+							</li>
+							<li class = "nav-item">
+								<a class= "nav-link active" href = "#">Service</a>
+							</li>
+						</ul>
+					</div>
 				</div>
+			</nav>
+			<div class="jumbotron jumbotron-fluid text-center" id = "jumbotron-about">
+			   	<h1 class="display-3 px-3">Services</h1>
+			</div>	
+			<div class = "container pb-3">
+				<h1 class="display-4 text-center">Warranty Policy</h1>
+				<p class="mt-4">
+					Upon purchase, your vehicle is protected by a 5 year/ 75,000 mile warranty. The car battery, engines, and driving unit are covered for:
+				</p>
+					<ul>
+						<li>Model 1 - 150,000 miles w/ minimum 60% battery retention</li>
+						<li>Model 2 - 200,000 miles w/ minimum 60% battery retention</li>
+						<li>Model 3 - 120,000 miles w/ minimum 60% battery retention</li>
+						<li>Model 4 - 120,000 miles w/ minimum 70% battery retention</li>
+					</ul>
+				<p>
+					Warranties cover any repairs, restorations, or replacements deemed necessary to correct any flaws or deficiencies resulting from normal use. Warranties are limited to parts manufactured by Brontes alone. Car defects present from the time of purchase do not require a warranty and may be immediately replaced. Please review the full warranty for further details and specifications.
+				</p>
 			</div>
-		</nav>
+			<div class = "container text-center">
+				<hr>
+				<h1 class="display-4 text-center">Submit a Service Ticket</h1>
+				<p class="my-4">
+					Having an issue with a piece of Brontes hardware? Submit a service ticket below and we'll get back to you as soon as we can!
+				</p>
+				<form>
+					<div class="container text-left">
+						<div class="row mt-md-2 justify-content-md-center">
+							<div class = "col-12 col-md-3 mt-2 mt-md-0">
+								<label for ="#name-area">Full Name:</label>
+								<textarea rows="1" class="form-control" id="name-area"></textarea>
+							</div>
+							<div class = "co-12 mt-2 mt-md-0 col-md-5">
+								<label for ="#email-area">Email Address:</label>
+								<textarea  rows="1" class="form-control" id="email-area"></textarea>
+							</div>
+						</div>
+						<div class="row mt-md-2 justify-content-md-center">
+							<div class = "col-12 col-md-3  mt-2 mt-md-0">
+								<label for ="#model-dropdown">Model:</label>
+								<select class="form-control" id="model-dropdown">
+									<option>Model I</option>
+									<option>Model II</option>
+									<option>Model III</option>
+									<option>Model IV</option>
+								</select>
+							</div>
+							<div class = "col-12 col-md-5  mt-2 mt-md-0">
+								<label for ="#serial-area">Serial Number:</label>
+								<textarea class="form-control" id="serial-area" rows="1"></textarea>
+							</div>
+						</div>
+						<div class="row mt-md-2 justify-content-md-center">
+							<div class = "col-12 col-md-8 mt-2 mt-md-0">
+								<label for ="#issue-area">Issue:</label>
+								<textarea class="form-control" id="issue-area" rows="5"></textarea>
+							</div>
+						</div>
+					</div>
+					<a type="submit" class="btn btn-outline-success my-5" id="button-submit" href="javascript:void(0);">Submit</a>
+				</form>
+			</div>
+		</div>
 		<footer id="sticky-footer" class="py-4 text-50">
 			<div class="container text-center">
 			      <small>&copy; 2020 Brontes Automotive</small>
