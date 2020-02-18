@@ -3,6 +3,27 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+		<link rel="shortcut icon" href="../images/favicons/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32 64x64" href="../images/favicons/favicon.ico">
+		<link rel="icon" type="image/png" sizes="196x196" href="../images/favicons/favicon-192.png">
+		<link rel="icon" type="image/png" sizes="160x160" href="../images/favicons/favicon-160.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="../images/favicons/favicon-96.png">
+		<link rel="icon" type="image/png" sizes="64x64" href="../images/favicons/favicon-64.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../images/favicons/favicon-32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../images/favicons/favicon-16.png">
+		<link rel="apple-touch-icon" href="../images/favicons/favicon-57.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="../images/favicons/favicon-114.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="../images/favicons/favicon-72.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="../images/favicons/favicon-144.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="../images/favicons/favicon-60.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="../images/favicons/favicon-120.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="../images/favicons/favicon-76.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="../images/favicons/favicon-152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="../images/favicons/favicon-180.png">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		<meta name="msapplication-TileImage" content="/favicon-144.png">
+		<meta name="msapplication-config" content="/browserconfig.xml">
+		<!-- ****** faviconit.com favicons ****** -->
 		<!-- need to make an icon-->
 		<title>Brontes Automotive - Services</title>
 		<!-- Bootstrap -->
@@ -94,8 +115,17 @@
 								<textarea class="form-control" id="issue-area" rows="5"></textarea>
 							</div>
 						</div>
+						<div class = "row mt-2 justify-content-center">
+							<div class = "col-8">
+								<div class="alert alert-success collapse mt-5" id="submit-alert">
+									<h4 class="alert-heading text-center">Ticket Submitted!</h4>
+								</div>
+							</div>
+						</div>
+						<div class = "row mt-2 justify-content-center">
+							<a type="submit" class="btn btn-outline-success my-5" id="button-submit" data-toggle="collapse" href="#submit-alert">Submit</a>
+						</div>
 					</div>
-					<a type="submit" class="btn btn-outline-success my-5" id="button-submit" href="javascript:void(0);">Submit</a>
 				</form>
 			</div>
 		</div>
@@ -104,5 +134,9 @@
 			      <small>&copy; 2020 Brontes Automotive</small>
 			</div>
 		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.js"></script>
+		<script src = "../js/brontes.js"></script>
 	</body>
 </html>
