@@ -87,11 +87,35 @@ h3 {
   padding-bottom: 15px;
 }
 
-p {
+.classes, .card, p {
   font-family: 'Roboto Slab', serif;
   font-size: 14px;
   line-height: 21.3px;
   color: #666666;
+}
+
+.card {
+  background-color: #B22222;
+  color: white;
+  margin-bottom: 15px;
+  border-radius: 0px;
+}
+
+.fa-plus{
+  padding:0px;
+}
+
+.tsa-head{
+  background-image: url('../images/tsaState.jpg');
+  background-size: cover;
+  min-height:400px;
+}
+
+.card-header button {
+  color: white !important;
+  font-weight: 500;
+  font-size: 21px;
+  letter-spacing: 1px;
 }
 
 .feature-img {
