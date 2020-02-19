@@ -79,6 +79,10 @@ h3 {
   color: white;
 }
 
+.card-body p {
+  color: white;
+}
+
 .why-stem {
   background-color: #f1f1f1;
 }
