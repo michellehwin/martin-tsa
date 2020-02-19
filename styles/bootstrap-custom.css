@@ -79,6 +79,15 @@ h3 {
   color: white;
 }
 
+.card-body p {
+  color: white;
+}
+
+.card-header:hover{
+  background-color: #bc3a3a;
+  border-color: #bc3a3a;
+}
+
 .why-stem {
   background-color: #f1f1f1;
 }
@@ -87,11 +96,35 @@ h3 {
   padding-bottom: 15px;
 }
 
-p {
+.classes, .card, p {
   font-family: 'Roboto Slab', serif;
   font-size: 14px;
   line-height: 21.3px;
   color: #666666;
+}
+
+.card {
+  background-color: #B22222;
+  color: white;
+  margin-bottom: 15px;
+  border-radius: 0px;
+}
+
+.fa-plus{
+  padding:0px;
+}
+
+.tsa-head{
+  background-image: url('../images/tsaState.jpg');
+  background-size: cover;
+  min-height:400px;
+}
+
+.card-header button {
+  color: white !important;
+  font-weight: 500;
+  font-size: 21px;
+  letter-spacing: 1px;
 }
 
 .feature-img {
@@ -365,4 +398,49 @@ thead {
 
 .timeline{
   background-color: white;
+}
+
+footer img{
+  object-fit: scale-down;
+}
+
+/* Style all font awesome icons */
+.fa {
+  display: inline-block;
+  vertical-align: center;
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.list-unstyled p{
+  margin-bottom:10px;
+}
+
+.f-contact p{
+  margin-bottom:0;
 }
