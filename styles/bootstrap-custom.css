@@ -83,6 +83,11 @@ h3 {
   color: white;
 }
 
+.card-header:hover{
+  background-color: #bc3a3a;
+  border-color: #bc3a3a;
+}
+
 .why-stem {
   background-color: #f1f1f1;
 }
