@@ -366,3 +366,44 @@ thead {
 .timeline{
   background-color: white;
 }
+
+footer img{
+  object-fit: scale-down;
+}
+
+/* Style all font awesome icons */
+.fa {
+  display: inline-block;
+  vertical-align: center;
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.f-contact p{
+  margin-bottom:0;
+}

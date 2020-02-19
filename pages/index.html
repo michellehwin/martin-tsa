@@ -18,6 +18,9 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,,600,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,500&display=swap" rel="stylesheet">
 
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <body>
   <header>
     <nav class="navbar navbar-light navbar-expand-sm" id="custom-bootstrap-menu">
@@ -52,174 +55,211 @@
         </ul>
       </div>
     </nav>
+  </header>
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ul class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-      </ul>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ul>
 
-      <!-- The slideshow -->
-      <div class="carousel-inner">
-        <div class="carousel-item">
-          <img src="../images/co23uta.jpg" alt="">
-          <div class="carousel-caption">
-            <h3>Class of '23 listens to speaker Ben Jones</h3>
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img src="../images/co23uta.jpg" alt="">
+        <div class="carousel-caption">
+          <h3>Class of '23 listens to speaker Ben Jones</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../images/solar-car.jpeg" alt="">
+        <div class="carousel-caption">
+          <h3>The Solar Car team salvages parts</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../images/freshmen-uta.jpg" alt="">
+        <div class="carousel-caption">
+          <h3>Class of '23 visits UTA during bridge camp</h3>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <img src="../images/seniors19.jpg" alt="">
+        <div class="carousel-caption">
+          <h3>Class of '19</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+
+  </div>
+
+  <div class="container-fluid pb-5 px-5 text-center mission">
+    <h1 class="pt-5">OUR MISSION</h1>
+    <p>The AISD STEM Academy debuted at Martin High School during the fall of 2015. The Academy was designed by teachers in partnership with the University of Texas at Arlington. Our mission is to prepare students to
+      successfully enter into STEM college majors and careers through relevant, innovative and rigorous learning experiences at the high school and college level.</p>
+    <p> Students earn credits along four pathways - engineering, biomedical science, computer science, and
+      math/science. Students in the STEM Academy will have a chance to complete a number of first- and second-year STEM college courses at the University of Texas at Arlington prior to high school graduation. Students are also able to advance their
+      STEM education outside the classroom with opportunities such as internships, mentorships, job shadowing, community service, enrichment programs, and summer learning opportunities.</p>
+    <a class="btn btn-main" href="stem.html">Learn More</a>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12 p-5">
+        <h2>New Student Registration</h2>
+        <p>Join the AISD STEM Academy and be a part of something great! Aspiring students must submit an application
+          and if selected, interview for a spot in the STEM Academy.</p>
+        <a class="btn btn-main" href="stem.html#admissions" role="button">Apply Now</a>
+      </div>
+      <div class="col-lg-6 col-sm-12 p-0">
+        <img class="feature-img" src="../images/soph-nasa.JPG" alt="NASA Sophomore Trip">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 col-sm-12 p-5 text-right order-lg-2">
+        <h2>Clubs</h2>
+        <p>Students are involved in many STEM related clubs such as solar car, robotics,
+          and roboboat, as well as Martin clubs like fine arts and Key Club.</p>
+        <a class="btn btn-main" href="tsa.html" role="button">Read More</a>
+      </div>
+
+      <div class="col-lg-6 col-sm-12 p-0">
+        <img class="feature-img" src="../images/roboboat.jpg" alt="NASA Sophomore Trip">
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid p-5 mb-5 text-center why-stem">
+    <h1 class='pb-2'>Why STEM?</h1>
+    <p class='pb-4'>The STEM Academy aims to help students reach success with a focus on science, technology, engineering and math.</p>
+    <div class="row">
+      <span class="col-lg-1 col-md-1"></span>
+      <div class="col-lg-4 col-md-5 col-sm-12 pl-lg-5 ml-lg-5 text-sm-center text-lg-left text-md-left">
+        <h3>UTA Classes</h3>
+        <p>Junior and Senior STEM Students have the oppurtunity to take UTA Classes such as
+          Calculus II and III, Differential Equations, and a variety of basic courses.</p>
+        <!-- <img src="../images/uta.jpg" alt="uta"> -->
+        <h3>STEM Practicums</h3>
+        <p>Senior STEM Academy students are provided the oppurtunity to work at companies like
+          Lockheed Martin, Bell Helicopter, and L3.</p>
+        <h3>PLTW Curriculum</h3>
+        <p>For each pathway, there are a set of classes that use <a href="https://pltw.org">Project Lead The Way</a>
+          lesson plans.</p>
+      </div>
+      <div class="col-lg-4 col-md-5 col-sm-12 pl-lg-5 ml-lg-5 text-lg-left text-md-left">
+        <h3>Annual Trips</h3>
+        <p>Each year, each STEM cohort goes on a different trip to see STEM fields in action
+          like scientists at NASA, zoologists at Fossil Rim, and Mathematicians at OU.</p>
+        <h3>Academic Guidance</h3>
+        <p>STEM Students have access to countless resources such as extended library time
+          after school, one-on-one teacher help, and peers with similar interests.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center pb-4">
+    <div class="row">
+      <div class="col-lg-9">
+        <h1>Academy News</h1>
+        <a class="twitter-timeline" data-width=100% data-height=600px href="https://twitter.com/AISDSTEM?ref_src=twsrc%5Etfw">Tweets by AISDSTEM</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="col-lg-3">
+        <h1>Calendar</h1>
+        <iframe
+          src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=YWlzZHN0ZW1hY2FkZW15LmFpc2RAZ21haWwuY29t&amp;color=%23F09300&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=1&amp;showTz=0&amp;mode=AGENDA"
+          style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="pt-3 mission">
+    <div class="container text-center text-md-left">
+      <div class="row">
+        <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1 text-center">
+          <img src="../images/stem-academy-logo.jpg" class="img-fluid" style="max-height:250px" alt="stem">
+        </div>
+        <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+          <h5 class="font-weight-bold text-uppercase mb-4">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li>
+              <p><a href="index.html">HOME</a></p>
+            </li>
+            <li>
+              <p><a href="stem.html">ABOUT</a></p>
+            </li>
+            <li>
+              <p><a href="clubs.html">CLUBS</a></p>
+            </li>
+            <li>
+              <p><a href="tsa.html">TSA CHAPTER</a></p>
+            </li>
+            <li>
+              <p><a href="bts.html">BEHIND THE SCENES</a></p>
+            </li>
+          </ul>
+        </div>
+        <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+          <h5 class="font-weight-bold text-uppercase mb-4">Contact</h5>
+          <ul class="list-unstyled f-contact">
+            <li>
+              <p><i class="fa fa-home mr-3"></i>4501 W. Pleasant Ridge</p>
+            </li>
+            <li>
+              <p><i class="fa fa-envelope mr-3"></i>mdavda@aisd.net</p>
+            </li>
+            <li>
+              <p><i class="fa fa-envelope mr-3"></i>mvarner@aisd.net</p>
+            </li>
+            <li>
+              <p><i class="fa fa-phone mr-3"></i>682-867-8600</p>
+            </li>
+          </ul>
+        </div>
+        <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-2 col-lg-2 mx-auto my-4 text-center">
+          <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+          <div class="row">
+            <a type="button" class="btn-lg mx-auto p-2">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </div>
+          <div class="row">
+            <a type="button" class="btn-lg mx-auto">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </div>
+          <div class="row">
+            <a type="button" class="btn-lg mx-auto p-2">
+              <i class="fa fa-facebook"></i>
+            </a>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="../images/solar-car.jpeg" alt="">
-          <div class="carousel-caption">
-            <h3>The Solar Car team salvages parts</h3>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="../images/freshmen-uta.jpg" alt="">
-          <div class="carousel-caption">
-            <h3>Class of '23 visits UTA during bridge camp</h3>
-          </div>
-        </div>
-        <div class="carousel-item active">
-          <img src="../images/seniors19.jpg" alt="">
-          <div class="carousel-caption">
-            <h3>Class of '19</h3>
-          </div>
-        </div>
-      </div>
-
-      <!-- Left and right controls -->
-      <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
-
-    </div>
-
-    <div class="container-fluid pb-5 px-5 text-center mission">
-      <h1 class="pt-5">OUR MISSION</h1>
-      <p>The AISD STEM Academy debuted at Martin High School during the fall of 2015. The Academy was designed by teachers in partnership with the University of Texas at Arlington. Our mission is to prepare students to
-        successfully enter into STEM college majors and careers through relevant, innovative and rigorous learning experiences at the high school and college level.</p>
-      <p> Students earn credits along four pathways - engineering, biomedical science, computer science, and
-        math/science. Students in the STEM Academy will have a chance to complete a number of first- and second-year STEM college courses at the University of Texas at Arlington prior to high school graduation. Students are also able to advance their
-        STEM education outside the classroom with opportunities such as internships, mentorships, job shadowing, community service, enrichment programs, and summer learning opportunities.</p>
-      <a class="btn btn-main" href="stem.html">Learn More</a>
-    </div>
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-6 col-sm-12 p-5">
-          <h2>New Student Registration</h2>
-          <p>Join the AISD STEM Academy and be a part of something great! Aspiring students must submit an application
-            and if selected, interview for a spot in the STEM Academy.</p>
-          <a class="btn btn-main" href="stem.html#admissions" role="button">Apply Now</a>
-        </div>
-        <div class="col-lg-6 col-sm-12 p-0">
-          <img class="feature-img" src="../images/soph-nasa.JPG" alt="NASA Sophomore Trip">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-6 col-sm-12 p-5 text-right order-lg-2">
-          <h2>Clubs</h2>
-          <p>Students are involved in many STEM related clubs such as solar car, robotics,
-            and roboboat, as well as Martin clubs like fine arts and Key Club.</p>
-          <a class="btn btn-main" href="tsa.html" role="button">Read More</a>
-        </div>
-
-        <div class="col-lg-6 col-sm-12 p-0">
-          <img class="feature-img" src="../images/roboboat.jpg" alt="NASA Sophomore Trip">
-        </div>
       </div>
     </div>
 
-    <div class="container-fluid p-5 mb-5 text-center why-stem">
-      <h1 class='pb-2'>Why STEM?</h1>
-      <p class='pb-4'>The STEM Academy aims to help students reach success with a focus on science, technology, engineering and math.</p>
-      <div class="row">
-        <span class="col-lg-1 col-md-1"></span>
-        <div class="col-lg-4 col-md-5 col-sm-12 pl-lg-5 ml-lg-5 text-sm-center text-lg-left text-md-left">
-          <h3>UTA Classes</h3>
-          <p>Junior and Senior STEM Students have the oppurtunity to take UTA Classes such as
-            Calculus II and III, Differential Equations, and a variety of basic courses.</p>
-          <!-- <img src="../images/uta.jpg" alt="uta"> -->
-          <h3>STEM Practicums</h3>
-          <p>Senior STEM Academy students are provided the oppurtunity to work at companies like
-            Lockheed Martin, Bell Helicopter, and L3.</p>
-          <h3>PLTW Curriculum</h3>
-          <p>For each pathway, there are a set of classes that use <a href="https://pltw.org">Project Lead The Way</a>
-            lesson plans.</p>
-        </div>
-        <div class="col-lg-4 col-md-5 col-sm-12 pl-lg-5 ml-lg-5 text-lg-left text-md-left">
-          <h3>Annual Trips</h3>
-          <p>Each year, each STEM cohort goes on a different trip to see STEM fields in action
-            like scientists at NASA, zoologists at Fossil Rim, and Mathematicians at OU.</p>
-          <h3>Academic Guidance</h3>
-          <p>STEM Students have access to countless resources such as extended library time
-            after school, one-on-one teacher help, and peers with similar interests.</p>
-        </div>
-      </div>
+  </footer>
+  <!-- Footer -->
 
-    </div>
-
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-lg-9">
-          <h1>Academy News</h1>
-          <a class="twitter-timeline" data-width=100% data-height=600px href="https://twitter.com/AISDSTEM?ref_src=twsrc%5Etfw">Tweets by AISDSTEM</a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-        <div class="col-lg-3">
-          <h1>Calendar</h1>
-          <iframe
-            src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=YWlzZHN0ZW1hY2FkZW15LmFpc2RAZ21haWwuY29t&amp;color=%23F09300&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=1&amp;showTz=0&amp;mode=AGENDA"
-            style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid mission pt-4">
-      <div class="row d-flex h-100">
-        <span class="col-lg-2"></span>
-        <div class="col-lg-4 col-sm-12 align-self-center">
-          <h3>Location</h3>
-            <p>The AISD STEM Academy is located at Martin High School and is a cooperative effort of the Arlington Independent School District and The University of Texas at Arlington. Students will attend classes at Martin High School and will enjoy all the privileges and benefits of being a STEM Academy student along with the benefits and privileges of being a Martin High School student such as sports, fine arts, clubs, and organizations. Students enrolled in the STEM Academy will be automatically approved as transfers to Martin High School.</p>
-        </div>
-        <div class="col-lg-4 col-sm-12">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1863.594457950898!2d-97.18022328150526!3d32.68426970335966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e64a83345ce65%3A0xaadc48bce3c00356!2sJames%20Martin%20High%20School!5e0!3m2!1sen!2sus!4v1581806361371!5m2!1sen!2sus"
-            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-
-        </div>
-      </div>
-
-
-    </div>
-
-</body>
-
-</html>
-<!-- /END THE FEATURETTES -->
-
-
-<!-- FOOTER -->
-<footer>
-  <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-</footer>
-
-</div><!-- /.container -->
-
-</header>
-
-
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="../js/jquery-1.7.1.min.js"></script>
-<script src="../js/bootstrap.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="../js/jquery-1.7.1.min.js"></script>
+  <script src="../js/bootstrap.js"></script>
 </body>
 
 </html>
