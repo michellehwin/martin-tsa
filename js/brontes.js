@@ -73,8 +73,8 @@ function setMinHeight(){
 	var navHeight = $('#navBar').outerHeight(true);
     var viewportHeight = $(window).outerHeight(true);
     var footerHeight = $('#sticky-footer').height();
+    // Seems kinda hackish but hey that plus one does wonders
     var finalHeight = viewportHeight-(navHeight+footerHeight+1);
-    console.log(finalHeight)
     $('.content').css('min-height',finalHeight);
 }
 

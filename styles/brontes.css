@@ -7,16 +7,17 @@ html, body{
 	margin:0;
 }
 
-.content{
-	background-color: red;
-}
-
 #sticky-footer{
 	height:5rem;
 	background-color:#e9ecef;
 	line-height: 5rem;
 }
 
+/*Quick fix, not encouraged*/
+
+.rounded-circle{
+	max-height: 15rem;
+}
 
 #jumbotron-design{
 	background-image: url("../images/cad-4.png");
