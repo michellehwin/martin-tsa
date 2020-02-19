@@ -65,6 +65,19 @@ $("#button-results").click(function () {
     showResults();
 });
 
+$(document).ready(setMinHeight());
+
+$(window).resize(setMinHeight());
+
+function setMinHeight(){
+	var navHeight = $('#navBar').outerHeight(true);
+    var viewportHeight = $(window).outerHeight(true);
+    var footerHeight = $('#sticky-footer').height();
+    var finalHeight = viewportHeight-(navHeight+footerHeight+1);
+    console.log(finalHeight)
+    $('.content').css('min-height',finalHeight);
+}
+
 $('#div-results').on('shown.bs.collapse', function () {
   this.scrollIntoView({behavior: 'smooth'});
 });
