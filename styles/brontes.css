@@ -8,9 +8,13 @@ html, body{
 }
 
 #sticky-footer{
-	height:5rem;
 	background-color:#e9ecef;
+	min-height: 5rem;
 	line-height: 5rem;
+}
+
+.no-wrap{
+	white-space: nowrap;
 }
 
 /*Quick fix, not encouraged*/
@@ -19,6 +23,9 @@ html, body{
 	max-height: 15rem;
 }
 
+#link-item{
+	display: inline-block;
+}
 
 /*#jumbotron-design{
 	min-height: 30rem;

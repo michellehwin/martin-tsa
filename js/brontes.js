@@ -65,16 +65,19 @@ $("#button-results").click(function () {
     showResults();
 });
 
-$(document).ready(setMinHeight());
+$(document).ready(function(){
+	setMinHeight();
+});
 
-$(window).resize(setMinHeight());
+$(window).resize(function(){
+	setMinHeight();
+});
 
 function setMinHeight(){
-	var navHeight = $('#navBar').outerHeight(true);
-    var viewportHeight = $(window).outerHeight(true);
-    var footerHeight = $('#sticky-footer').height();
-    // Seems kinda hackish but hey that plus one does wonders
-    var finalHeight = viewportHeight-(navHeight+footerHeight+1);
+	var navHeight = $('#navBar').outerHeight();
+    var viewportHeight = $(window).outerHeight();
+    var footerHeight = $('#sticky-footer').outerHeight();
+    var finalHeight = viewportHeight-(navHeight+footerHeight);
     $('.content').css('min-height',finalHeight);
 }
 
