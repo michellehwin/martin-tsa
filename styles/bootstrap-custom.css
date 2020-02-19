@@ -404,6 +404,10 @@ footer img{
   color: white;
 }
 
+.list-unstyled p{
+  margin-bottom:10px;
+}
+
 .f-contact p{
   margin-bottom:0;
 }
